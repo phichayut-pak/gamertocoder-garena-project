@@ -447,7 +447,7 @@ nav {
 }
 
 #decrease-card {
-  z-index: 99;
+  z-index: 90; 
   position: absolute;
   width: 1rem;
   height: 1rem;
@@ -460,6 +460,8 @@ nav {
   align-items: center;
   border-radius: 9999px;
 }
+
+
 
 /* CTA */
 #cta-section {

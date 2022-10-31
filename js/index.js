@@ -1,3 +1,5 @@
+
+
 // ON SCROLL
 document.addEventListener("scroll", () => {
 
@@ -184,13 +186,11 @@ const fetchCarouselInfo = async () => {
         </div>
 
         <div id="increase-card" onclick={onIncreaseCard()}>
-        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Chevron Forward</title><path fill="white" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
+          <img src="../images/angle-right-solid.svg" />
         </div>
         
         <div id="decrease-card" onclick={onDecreaseCard()}>
-        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-        </svg>
+          <img class="icon" src="../images/angle-left-solid.svg" />
         </div>
         `
         console.log(chosenCard === i.no)
