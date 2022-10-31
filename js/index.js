@@ -186,11 +186,11 @@ const fetchCarouselInfo = async () => {
         </div>
 
         <div id="increase-card" onclick={onIncreaseCard()}>
-          <img src="../images/angle-right-solid.svg" />
+          <image src="../images/angle-right-solid.svg" />
         </div>
         
         <div id="decrease-card" onclick={onDecreaseCard()}>
-          <img class="icon" src="../images/angle-left-solid.svg" />
+          <image class="icon" src="../images/angle-left-solid.svg" />
         </div>
         `
         console.log(chosenCard === i.no)
